@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="#404040"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".RegActivity">
 
 
     <EditText
-        android:id="@+id/login_mobile"
+        android:id="@+id/reg_mobile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:baselineAligned="false"
         android:ems="10"
         android:hint="Enter Moblle Number"
@@ -22,10 +22,10 @@
         android:textColorHint="#fff" />
 
     <EditText
-        android:id="@+id/login_password"
+        android:id="@+id/reg_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:baselineAligned="false"
         android:ems="10"
         android:hint="Enter Moblle password"
@@ -33,34 +33,59 @@
         android:textColor="#fff"
         android:textColorHint="#fff" />
 
-    <TextView
-        android:id="@+id/login_btn"
-        android:textColor="#fff"
-        android:textSize="18dp"
+    <EditText
+        android:id="@+id/reg_confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:gravity="center"
-        android:background="#0055dd"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:padding="10dp"
-        />
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/reg_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="Enter Address"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+
+
+
 
 
     <TextView
-        android:id="@+id/login_signup"
+        android:id="@+id/reg_signup"
         android:textColor="#fff"
         android:textSize="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:onClick="SignUp"
         android:gravity="center"
         android:background="#0055dd"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:padding="10dp"
         />
 </LinearLayout>
